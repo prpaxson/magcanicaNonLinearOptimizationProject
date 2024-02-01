@@ -85,6 +85,6 @@ The quantitative scoring component is based on optimality using a sum of square 
 
 For qualitative scoring, the organization and clarity of code and reports is equally if not more important, so taking any time to comment source code, annotate figures, and generate readable reports will be crucial in conveying how the problem was attempted for better assessing a particular submission.
 
-Submissions of solved project code can be pushed on a ``/submissions/<yourname>`` branch.
+Submissions of solved project code can be pushed to a user-created cloned fork of this source project with all relevant updates and changes reflected within the fork.
 
 If you want to learn more about this project, visit the `home repository <https://github.com/mikewcallahan/nonLinearOptimizationProject>`_.
