@@ -36,6 +36,8 @@ Where the specific function is of the form:
 
 with ``r``, ``theta``, and ``psi`` being the Spherical coordinate representation of their ``x``, ``y``, and ``z`` Cartesian coordinate counterparts and ``p`` being the solution vector for coefficients/weights applied to the function described above.
 
+Therefore, it will be useful to create some kind of mapping functions to translate the ``x``, ``y``, and ``z`` Cartesian coordinate vectors into their ``r``, ``theta``, and ``psi`` spherical coordinate counterparts.
+
 Constraints
 ---------------
 The project features a module named ``nlop``. Under this module should be four python files, ``__init__.py``, ``core.py``, ``helpers.py`` and
@@ -61,10 +63,6 @@ The project features a module named ``nlop``. Under this module should be four p
     * Design function ``f(x,y,z,p)`` where ``x``, ``y``, and ``z`` are independent variables to be fitted using a vector of coefficients/weights ``p=[p[0], p[1],...]`` to minimize ``||v-f(x,y,z,p)||``
 
 
-For demonstrating a simple example of how these three python files interact, please review the top sections of code for
-an example of a class under ``core.py`` which initializes by calling several methods under the class which utilize several
-``helper.py`` functions one of which calls a mathematical function from ``functions.py``
-
 Any reports generated for analysis, documentation, or similar should be placed under ``\\docs\\``.
 
 Any images generated for analysis, documentation, or similar should be placed under ``\\img\\``.
@@ -79,12 +77,10 @@ Please make sure all code is commented for clarity.
 If additional modules or python files are created, please provide clear descriptions of what the files represent and how they fit into the overall project.
 Specifically, describe how these additional modules/files fit into the process of reading, analyzing/solving, validating, and/or reporting in reference to the ``\\nlop\\core.py`` module.
 
-Please make sure to modify ``requirements.txt`` with any and all python package dependencies.
+**Please make sure to modify** ``requirements.txt`` **with any and all python package dependencies required for submitted project to function correctly.**
 
 Other
 ---------------
-When reviewing the data, it may be useful to consider transforming the Cartesian components into Spherical representations in order to evaluate possible model function descriptions.
-
 The quantitative scoring component is based on optimality using a sum of square of residuals of the validation simulation. This will be compared to the reference solution to determine if solution is approximate.
 
 For qualitative scoring, the organization and clarity of code and reports is equally if not more important, so taking any time to comment source code, annotate figures, and generate readable reports will be crucial in conveying how the problem was attempted for better assessing a particular submission.
