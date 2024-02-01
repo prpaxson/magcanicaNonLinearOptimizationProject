@@ -79,12 +79,16 @@ Specifically, describe how these additional modules/files fit into the process o
 
 **Please make sure to modify** ``requirements.txt`` **with any and all python package dependencies required for submitted project to function correctly.**
 
-Other
+What Will be Reviewed
 ---------------
 The quantitative scoring component is based on optimality using a sum of square of residuals of the validation simulation. This will be compared to the reference solution to determine if solution is approximate.
 
 For qualitative scoring, the organization and clarity of code and reports is equally if not more important, so taking any time to comment source code, annotate figures, and generate readable reports will be crucial in conveying how the problem was attempted for better assessing a particular submission.
 
+To this end, it is imperative that someone reading and executing a completed project be able to understand any and all parts of the project, like the classes or functions within a file, how a report is generated, what the solution parameters are, what the error residual is, and any visualizations to help show how the problem was analyzed and solved.
+
+Other
+---------------
 Submissions of solved project code can be pushed to a user-created cloned fork of this source project with all relevant updates and changes reflected within the fork.
 
 If you want to learn more about this project, visit the `home repository <https://github.com/mikewcallahan/nonLinearOptimizationProject>`_.
