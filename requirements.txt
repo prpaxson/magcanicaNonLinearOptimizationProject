@@ -1,2 +1,8 @@
 "ADD REQUIREMENTS HERE"
 setuptools
+os
+pandas
+numpy
+lmfit
+datetime
+matplotlib

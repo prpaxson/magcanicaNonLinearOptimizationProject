@@ -1,0 +1,35 @@
+
+Training results:
+------------------------------------------------------
+[[Fit Statistics]]
+    # fitting method   = least_squares
+    # function evals   = 81
+    # data points      = 10000
+    # variables        = 7
+    chi-square         = 9507.61726
+    reduced chi-square = 0.95142773
+    Akaike info crit   = -490.917992
+    Bayesian info crit = -440.445609
+[[Variables]]
+    rAmp:        2.68084688 +/- 0.00647834 (0.24%) (init = 0.8899941)
+    thetaAmp:    1.46075205 +/- 0.04012853 (2.75%) (init = 0.2503823)
+    thetaFreq:  -0.09506002 +/- 0.01357044 (14.28%) (init = 0.1277096)
+    thetaPhase:  1.88724795 +/- 0.04522016 (2.40%) (init = 0.6959914)
+    phiAmp:      2.40867927 +/- 0.02783299 (1.16%) (init = 0.2668599)
+    phiFreq:     1.50294360 +/- 0.00674652 (0.45%) (init = 0.9435903)
+    phiPhase:   -0.00472354 +/- 0.01220618 (258.41%) (init = 0.9630928)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(thetaFreq, thetaPhase) = +0.8865
+    C(phiFreq, phiPhase)     = -0.8676
+    C(thetaAmp, thetaPhase)  = +0.7658
+    C(thetaAmp, thetaFreq)   = +0.7014
+    C(rAmp, thetaAmp)        = -0.4095
+    C(thetaAmp, phiAmp)      = -0.3384
+    C(phiAmp, phiFreq)       = -0.1938
+    C(phiAmp, phiPhase)      = +0.1639
+
+Validation results:
+------------------------------------------------------
+# data points      = 5000
+chi-square         = 9008.16780944499
+reduced chi-square = 1.8041593850280373
